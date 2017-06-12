@@ -1,15 +1,31 @@
 {
   "settings": {
-    "name": "NewSite-06-12_2240",
+    "name": "NewSite-06-13_0029",
     "currentPage": "index.html",
     "theme": {
-      "name": "unicore",
-      "title": "Unicore",
-      "styling": {}
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 1,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 6,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -23,44 +39,188 @@
       },
       "components": [
         {
-          "alias": "unicore/components",
+          "_styles": {
+            ".feature-title, .description": {
+              "color": "#232323"
+            },
+            ".feature-subtitle": {
+              "color": "#8c8c8c"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "desktop",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title3": "Готовый перевод",
+          "feature_subtitle3": "Надежный",
+          "feature_text3": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "feature_title6": "Эффект параллакса",
+          "feature_subtitle6": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "feature_text6": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "alias": "mobirizblocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "content7",
-          "_anchor": "content7-0",
+          "_name": "extFeatures8",
+          "_anchor": "extFeatures8-3",
           "_params": {
-            "blocks": "5",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
+            "bgImage": "@ADDONS_PATH@/mobirizblocks/components/extFeatures1/images/jumbotron.jpg",
+            "bgColor": "#e9e9e9",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlay": false,
+            "overlayOpacity": 0.75,
             "overlayColor": "#151515",
-            "icon1": "fa-money",
-            "icon2": "fa-picture-o",
-            "icon3": "fa-rocket",
-            "icon4": "fa-globe",
-            "icon5": "fa-globe"
+            "showTitle": true,
+            "showSubtitle": true
           },
-          "title1": "Multi Homepages",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "title2": "Responsive Design",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "title3": "Smart Watch",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "title4": "Design out of the box",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "title5": "Awesome Reports",
-          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit."
+          "title": "Быстрое добавление работ в заказ-наряд",
+          "subtitle": "В рабочем месте мастера слесарного цеха можно моментально создать новый документ и <br>наполнить его запчастями",
+          "feature_title1": "Сроки",
+          "feature_subtitle1": "Точные сроки поставки.",
+          "feature_text1": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "layers",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title2": "Аналоги и заменители",
+          "feature_subtitle2": "Бутстрап 4",
+          "feature_text2": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "mobile",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media": {
+            "image": {
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/zapchasti-zakaz-naryad-1904x866.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "video",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title4": "Добавление запчастей из истории",
+          "feature_subtitle4": "Телефоны, планшеты, компьютеры",
+          "feature_text4": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "edit",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title5": "Наши базы знаний",
+          "feature_subtitle5": "Веб-шрифты от Google",
+          "feature_text5": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac."
+        },
+        {
+          "alias": "mobirizblocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader10",
+          "_anchor": "extHeader10-5",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader10.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "form": {
+            "action": "avtoit@yandex.ru",
+            "alerts": {
+              "success": "Сообщение успешно отправлено!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Ваше Имя*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Ваш E-mail*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Телефон*"
+              },
+              "message": {
+                "title": "Message",
+                "visible": true,
+                "customTitle": "Введите текст сообщения..."
+              }
+            }
+          },
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\">Начать</a>",
+          "title": "Mobiriz.store",
+          "text": "Mobirise&nbsp;-&nbsp;это приложение для Windows и Mac.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobiriz.store/extensions.php\">Подписаться</a>"
         }
       ]
     }
